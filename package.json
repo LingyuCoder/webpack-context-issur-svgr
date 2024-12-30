@@ -1,0 +1,22 @@
+{
+  "name": "example-react-15",
+  "version": "1.0.0",
+  "private": true,
+  "license": "MIT",
+  "main": "index.js",
+  "scripts": {
+    "build": "webpack build",
+    "dev": "webpack serve"
+  },
+  "dependencies": {
+    "react": "15.7.0",
+    "react-dom": "15.7.0"
+  },
+  "devDependencies": {
+    "webpack-cli": "6.0.1",
+    "webpack": "5.97.1",
+    "@svgr/webpack": "8.1.0",
+    "swc-loader": "0.2.6"
+  },
+  "packageManager": "pnpm@8.15.3+sha256.fc4a49bd609550a41e14d20efbce802a4b892aa4cac877322de2f0924f122991"
+}
